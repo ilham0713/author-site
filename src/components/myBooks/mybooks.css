@@ -1,0 +1,89 @@
+.port__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.vibe__container {
+    width: var(--containerWidthLg);
+    margin: 0 auto;
+}
+
+h2{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    color:black;
+    padding: 0;
+    border: 0;
+}
+
+p{
+    margin-left: 1rem;
+    color:black;
+    margin-bottom: 1rem;
+}
+
+.port_item{
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 30rem;
+    width: 15rem;
+    border: 1px solid transparent;
+    transition: var(--trans400);
+    position: relative;
+}
+
+.port_item:hover h3 {
+    text-decoration: underline; /* Underline the text on hover */
+}
+
+.port-item-image {
+    height: 20rem; /* Adjust as needed */
+    width: 13rem; /* Adjust as needed */
+    transition: height 0.3s, width 0.3s; /* Adjust transition timing */
+}
+  
+.port-item-image:hover {
+    height: 22rem; /* Adjust as needed */
+    width: 14rem; /* Adjust as needed */
+}
+
+.port-item-image img {
+    height: 100%; /* Make sure the image fills its container */
+    width: 100%; /* Make sure the image fills its container */
+    object-fit: cover; /* Adjust the object-fit property as needed */
+}
+
+.port_item h3{
+    margin: 1.2rem 0 2rem;
+    text-decoration: none; /* Initially no underline */
+    transition: text-decoration 0.3s; 
+    color: black;
+} 
+
+.port-img-cta{
+    display: flex;
+    gap: 1rem;
+
+}
+
+@media screen and (max-width: 1024px){
+    .port__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .port__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}

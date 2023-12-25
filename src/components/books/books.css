@@ -1,0 +1,83 @@
+.port__containerb {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust the fr values as needed */
+    gap: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+h2{
+    color:black;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+p{
+    color:black;
+    margin: 0;
+}
+
+.port_itemb {
+    padding: 1.2rem;
+    border-radius: 2rem;
+    position: relative;
+}
+
+
+.port-item-imageb {
+    height: 100%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+}
+
+.port-item-imageb img {
+    height: 100%; /* Make sure the image fills its container */
+    width: 100%; /* Make sure the image fills its container */
+    object-fit: cover; /* Adjust the object-fit property as needed */
+}
+
+.port_itemb h3{
+    margin: 1.2rem 0 2rem;
+    color: black;
+} 
+
+.port-img-ctab{
+    display: flex;
+    gap: 1rem;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .port__containerb {
+        grid-template-columns: 1fr 1fr; /* Adjust the column proportions for smaller screens */
+        gap: 1.2rem;
+        margin-top: 2rem;
+    }
+    h2{
+        margin-bottom:0rem;
+        height: fit-content;
+        width: fit;
+    }
+}
+
+/* CSS for smaller screens */
+@media screen and (max-width: 600px) {
+    .port__containerb {
+        display: block; /* Change to block-level layout for smaller screens */
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    /* Adjust the width and layout for each article in smaller screens */
+    .port_itemb {
+        width: 100%; /* Take full width of the container */
+        margin-bottom: 15rem; /* Add some space between articles */
+    }
+
+    h2{
+        margin-top: 1rem;
+        margin-bottom:1rem;
+    }
+}
