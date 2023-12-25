@@ -1,11 +1,32 @@
 .port__containerb {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Adjust the fr values as needed */
+    grid-template-columns: 1fr 1fr; 
     gap: 2.5rem;
     margin-left: 4rem;
     margin-right: 4rem;
 }
 
+.port_itemb {
+    padding: 1.2rem;
+    border-radius: 2rem;
+    height: fit-content;
+    width: fit-content;;
+}
+
+.port-item-imageb {
+    height: 100%; 
+    width: 100%; 
+}
+
+.port-item-imageb img {
+    height: 100%; 
+    width: 100%; 
+}
+
+.port_itemb h3{
+    margin: 1.2rem 0 2rem;
+    color: black;
+} 
 h2{
     color:black;
     padding: 0;
@@ -13,45 +34,43 @@ h2{
     margin: 0;
 }
 
+li{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px 3px;
+}
+
+li:hover{
+    text-decoration: underline;
+} 
+
+.buy_button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(22, 23, 22);;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 p{
     color:black;
     margin: 0;
 }
 
-.port_itemb {
-    padding: 1.2rem;
-    border-radius: 2rem;
-    position: relative;
-}
-
-
-.port-item-imageb {
-    height: 100%; /* Adjust as needed */
-    width: 100%; /* Adjust as needed */
-}
-
-.port-item-imageb img {
-    height: 100%; /* Make sure the image fills its container */
-    width: 100%; /* Make sure the image fills its container */
-    object-fit: cover; /* Adjust the object-fit property as needed */
-}
-
-.port_itemb h3{
-    margin: 1.2rem 0 2rem;
-    color: black;
-} 
-
-.port-img-ctab{
-    display: flex;
-    gap: 1rem;
-
-}
 
 @media screen and (max-width: 1024px) {
     .port__containerb {
         grid-template-columns: 1fr 1fr; /* Adjust the column proportions for smaller screens */
         gap: 1.2rem;
-        margin-top: 2rem;
     }
     h2{
         margin-bottom:0rem;
@@ -68,16 +87,16 @@ p{
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 0rem;
+
     }
 
     /* Adjust the width and layout for each article in smaller screens */
     .port_itemb {
-        width: 100%; /* Take full width of the container */
-        margin-bottom: 15rem; /* Add some space between articles */
+        width: 100%; 
+        
     }
 
     h2{
-        margin-top: 1rem;
         margin-bottom:1rem;
     }
 }
