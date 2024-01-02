@@ -7,8 +7,10 @@ import MyBooks from './components/myBooks/MyBooks'
 import Traveling from './components/traveling/Traveling'
 import TQP from './components/books/TQP'
 import PIE from './components/books/PIE'
+import SIP from './components/books/SIP'
 import NoPage from './components/NoPage'
 import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
           <Route path = '*' element = {<NoPage/>}/>
           <Route path = '/TQP' element = {<TQP/>}/>
           <Route path = '/PIE' element = {<PIE/>}/>
+          <Route path = '/SIP' element = {<SIP/>}/>
         </Routes> 
        </BrowserRouter> 
+       <Footer/>
     </div>
   );
 }

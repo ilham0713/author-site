@@ -6,9 +6,11 @@ import "./mybooks.css"
 
 export default function MyBooks() {
     return (
-        <>
-            <h2>Miranda's Travel Adventures: The Series</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <article>
+            <h2 className='h2e'>Miranda's Travel Adventures: The Series</h2>
+            <p className='par'>This series is written for school-age readers who wish to learn about different countries. Miranda visits several Spanish-speaking countries in her dreams where she meets young people who teach her actual facts about their history, way of life, traditions, and culture.  In each book Miranda uses humor and her imagination to overcome her fears of the unknown.
+The series can be read in any order since each country presents a different experience and travel adventure. All the books in the series end with fun activities that help to connect the reader with the culture explored in the story.
+</p>
             <div className = 'port__container container'>
                 <a href = "/TQP" className='port_item'>
                     <div className="port-item-image">
@@ -25,7 +27,7 @@ export default function MyBooks() {
                     </div>
                     <h3>Panic In Ecuador</h3>
                 </a>
-                <a className='port_item'>
+                <a href = "/SIP" className='port_item'>
                     <div className="port-item-image">
                         <img src = {CS} alt=""/>
                     </div>
@@ -33,6 +35,6 @@ export default function MyBooks() {
                 </a>
                
             </div>
-        </>
+        </article>
     )
 }
