@@ -9,22 +9,38 @@ li {
 
 .footer-nav{
     color: black;
+    text-decoration: none;
+    padding: 0;
 }
 
 .footer-nav:hover{
     color: black;
+    text-decoration: black underline;
 }
+
+.footer-cols section{
+    align-items: center;
+}
+
 
 .footer-socials{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
     margin-bottom: 4rem;
+    width: fit-content;
 }
 
 .footer-socials a{
     color: black;
+    width: fit-content;
+    padding: 2px;
 } 
+
+.socials{
+    height: 10px;
+    width: auto;
+}
 
 .title {
     color: black;
@@ -32,8 +48,11 @@ li {
     margin: 0;
 }
 
-ul {
+.colys {
     list-style: none; /* Remove default list styles */
+    align-items: center;
+    padding-left: 0;
+
 }
 
 @media screen and (max-width: 1024px) {

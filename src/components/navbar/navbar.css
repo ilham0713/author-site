@@ -4,7 +4,7 @@
 }
 * {
     box-sizing: border-box;
-    height: 5rem;
+    height: fit-content;
 }
   
 body {
@@ -40,5 +40,5 @@ body {
 } 
 
 li:hover{
-    text-decoration: underline;
+    color: white;
 } 

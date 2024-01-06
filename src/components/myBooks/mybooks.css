@@ -35,6 +35,7 @@
     border: 1px solid transparent;
     transition: var(--trans400);
     position: relative;
+    text-decoration: none;
 }
 
 .port_item:hover h3 {

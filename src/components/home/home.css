@@ -1,0 +1,44 @@
+.home-intro{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 30%;
+}
+
+.name-side{
+    background-color: rgb(47, 54, 145);
+    color: white;
+    height: 40%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    align-items: center;
+    align-content: center;
+
+}
+
+.pic-side{
+    height: 40%;
+    width: auto;
+    overflow: hidden;
+}
+
+.words{
+    align-self: center;
+}
+
+.front-name{
+    color: white;
+}
+
+.welcome{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.greeting{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: large;
+}

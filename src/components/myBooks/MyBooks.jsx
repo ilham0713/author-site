@@ -1,4 +1,4 @@
-import React from 'react'
+
 import CS from "../../assets/CS.png"
 import TQP from "../../assets/TQPF.jpg"
 import PIE from "../../assets/PIE.jpg"
@@ -31,7 +31,7 @@ The series can be read in any order since each country presents a different expe
                     <div className="port-item-image">
                         <img src = {CS} alt=""/>
                     </div>
-                    <h3>Coming Soon</h3>
+                    <h3 >Coming Soon</h3>
                 </a>
                
             </div>

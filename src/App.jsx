@@ -11,10 +11,11 @@ import SIP from './components/books/SIP'
 import NoPage from './components/NoPage'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
+import Team from './components/team/Team'
 
 function App() {
   return (
-    <div>
+    <div className='page-container'>
       <Navbar /> 
       <BrowserRouter>
        <Routes>
@@ -27,6 +28,7 @@ function App() {
           <Route path = '/TQP' element = {<TQP/>}/>
           <Route path = '/PIE' element = {<PIE/>}/>
           <Route path = '/SIP' element = {<SIP/>}/>
+          <Route path = '/Team' element = {<Team/>}/>
         </Routes> 
        </BrowserRouter> 
        <Footer/>
