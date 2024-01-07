@@ -1,3 +1,6 @@
+.parent{
+    margin-top: 3rem;
+}
 .port__containerb {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -27,8 +30,9 @@
     margin: 1.2rem 0 2rem;
     color: black;
 } 
+
 h2{
-    color:black;
+    color: white;
     padding: 0;
     border: 0;
     margin: 0;
@@ -66,16 +70,43 @@ p{
     margin: 0;
 }
 
-/* .book-des{
-    margin-top: 2rem;
-} */
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    height: 50%;
+}
+
+.page{
+    height: 100%;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.excerpt{
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    background-color: rgb(22, 23, 22);;
+    padding-bottom: 3rem;
+    border-radius: 10px;
+}
+
+.sneak{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-weight: 900;
+}
+
 
 .book-sub{
     margin-top: 2rem;
 }
 
 .next-book{
-    margin-top: 20rem;
+    margin-top: 2rem;
     display: inline-block;
     padding: 0.75rem 1.5rem;
     background-color: rgb(22, 23, 22);;
@@ -114,7 +145,6 @@ p{
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 0rem;
-
     }
 
     
@@ -129,6 +159,6 @@ p{
         margin-bottom:1rem;
     }
     .next-book {
-        margin-top: 28rem;
+        margin-top: 5rem;
     }
 }

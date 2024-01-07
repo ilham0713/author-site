@@ -18,12 +18,12 @@ const Navbar = () => {
                     <a href = "/MyBooks">Books</a>
                 </li>
                 
-                {/* <li>
+               <li>
                     <a href = "/Activities">Activities</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href = "/Traveling">Traveling</a>
-                </li> */}
+                </li>  */}
             </ul>
         </nav>
     )

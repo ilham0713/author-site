@@ -22,12 +22,14 @@ function App() {
           <Route index element = {<Home/>}/>
           <Route path = '/home' element = {<Home/>}/>
           <Route path = '/Activities' element = {<Activities/>}/>
-          <Route path = '/MyBooks' element = {<MyBooks/>}/>
+          <Route path = '/MyBooks'>
+            <Route index element = {<MyBooks/>}/>
+            <Route path = 'TQP' element = {<TQP/>}/>
+            <Route path = 'PIE' element = {<PIE/>}/>
+            <Route path = 'SIP' element = {<SIP/>}/>
+          </Route>
           <Route path = '/Traveling' element = {<Traveling/>}/>
           <Route path = '*' element = {<NoPage/>}/>
-          <Route path = '/TQP' element = {<TQP/>}/>
-          <Route path = '/PIE' element = {<PIE/>}/>
-          <Route path = '/SIP' element = {<SIP/>}/>
           <Route path = '/Team' element = {<Team/>}/>
         </Routes> 
        </BrowserRouter> 

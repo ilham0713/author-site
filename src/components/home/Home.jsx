@@ -16,7 +16,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='pic-side'>
-                    <img src = {mta} alt=""/>
+                    <img className ="image" src = {mta} alt=""/>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ export default function Home() {
                     Welcome!
                 </h2>
                 <p className='greeting'>
-                This is an exciting place. So, please continue to explore the pages to learn more about me and my series. Or scroll further down to find links to contact me. I look forward to hearing from you.
+                This is an exciting place. So, please continue to explore the pages to learn more about me and my series. You can also find fun activities on the activities page or scroll further down to find links to contact me. I look forward to hearing from you.
 
 
 

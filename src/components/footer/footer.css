@@ -1,23 +1,37 @@
 li {
-    color: black;
+    color: white;
+}
+
+.foot{
+    margin-top: 2rem;
+    background-color:  rgb(22, 23, 22);
+    padding-top: 2rem;
 }
 
 .footer-cols {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-nav{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .footer-nav:hover{
-    color: black;
-    text-decoration: black underline;
+    color: white;
+    text-decoration: white underline;
 }
 
+.others{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .footer-cols section{
     align-items: center;
 }
@@ -32,14 +46,25 @@ li {
 }
 
 .footer-socials a{
-    color: black;
+    color: white;
     width: fit-content;
     padding: 2px;
 } 
 
+.footer-nav-line{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 .socials{
-    height: 10px;
     width: auto;
+    padding-right: 1rem;
+}
+
+.socials:hover{
+    color: gray;
 }
 
 .title {
