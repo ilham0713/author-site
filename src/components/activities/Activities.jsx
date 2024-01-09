@@ -1,10 +1,9 @@
-import Header from '../Header'
+import "./activities.css";
 
 export default function Activities() {
     return (
         <>
-            <Header />
-            <h2>Activities Page</h2>
+            <h2 className="h2e">Activities Page</h2>
         </>
     )
 }

@@ -8,10 +8,8 @@ export default function Team() {
        <div className='Team-t'>
         <h2 className='about-header'>Meet the Team</h2>
         <div className='box'>
-            <div>
-                <img className = "picture" src={auth} alt="The Quinceanera Party" />
-            </div>
             <div className="text-content">
+                <img className = "picture" src={auth} alt="The Quinceanera Party" />
                 <h3 className='name'>Janeth Bell: Author</h3>
                 <p className='intro first'>
                     Janeth Bell has been around young people all her life. She grew up on the island of Jamaica until age eighteen. Her mother was a nurse at the Children's Hospital and she had the opportunity to work there one summer as a young teen. This experience gave her a deep understanding of caring for the sick and disabled. In her books, you'll find characters who share the same feelings of compassion for others.
@@ -24,18 +22,12 @@ export default function Team() {
     
     Inspired by her early experiences, Janeth is also committed to community service and helping others.
                 </p>
-
             </div>
-            
-            
         </div>
-
         <div className='box'>
-            <div>
-                <img className = "picture" src={ill} alt="The Quinceanera Party" />
-                
-            </div>
+           
             <div className="text-content">
+                <img className = "picture" src={ill} alt="The Quinceanera Party" />
                 <h3 className='name'>Olivia Wynter: Illustrator</h3>
                 <p className='intro'>
                     Olivia Wynter has been using drawing as a hobby since she was a young girl. Her hobby has proven to be the real creative magic that appears in Books 1 and 2 of the Miranda’s Travel Adventures series.
@@ -45,10 +37,13 @@ export default function Team() {
     Olivia lives with her family in Ontario, Canada. She shares her Canadian, Portuguese and Guyanese heritage with her friends and relatives and creates magic with her pencil drawings. She is an avid dog lover and soccer fan. She believes that there is a creative genius in every child.  
 
                 </p>
+
             </div>
             
             
         </div>
+
+        
         
        </div>
     )

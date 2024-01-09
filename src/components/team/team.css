@@ -1,19 +1,18 @@
 .name{
     color: black;
-    font-weight: 900;
+    font-weight: 1000;
+    font-size: 30px;
     padding-top: 0;
     margin-top: 0;
 }
 
 .text-content {
     flex-grow: 1; /* Allow the text content to grow and fill the available space */
-    flex-wrap: wrap;
-    display: flex;
 }
 
 .intro{
     text-align: left; 
-    padding-right: 4rem;
+    color:black;
 }
 
 .first{
@@ -23,22 +22,37 @@
 .picture{
     height: auto;
     width: 10rem;
-    padding-right: 3rem;
+    float: left;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
 }
 
 .Team-t{
-    padding-left: 8rem;
-    padding-right: 8rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
 
 } 
 
 .about-header{
-    font-size: x-large;
+    margin-top: 2rem;
+    font-weight: 1000;
+    font-size: 40px;
     padding-bottom: 1rem;
     align-self: center;
+    color: black;
 }
 
 .box{
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
 
+}
+
+@media screen and (max-width: 600px) {
+    .Team-t{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    } 
+    
 }

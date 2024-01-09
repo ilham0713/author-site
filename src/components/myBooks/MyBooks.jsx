@@ -8,10 +8,12 @@ import {Link} from 'react-router-dom'
 export default function MyBooks() {
     return (
         <article>
-            <h2 className='h2e'>Miranda's Travel Adventures: The Series</h2>
-            <p className='par'>This series is written for school-age readers who wish to learn about different countries. Miranda visits several Spanish-speaking countries in her dreams where she meets young people who teach her actual facts about their history, way of life, traditions, and culture.  In each book Miranda uses humor and her imagination to overcome her fears of the unknown.
-The series can be read in any order since each country presents a different experience and travel adventure. All the books in the series end with fun activities that help to connect the reader with the culture explored in the story.
-</p>
+            <div className="fix">
+                <h2 className='h2e'>Miranda's Travel Adventures: The Series</h2>
+                <p className='par'>This series is written for school-age readers who wish to learn about different countries. Miranda visits several Spanish-speaking countries in her dreams where she meets young people who teach her actual facts about their history, way of life, traditions, and culture.  In each book Miranda uses humor and her imagination to overcome her fears of the unknown.
+    The series can be read in any order since each country presents a different experience and travel adventure. All the books in the series end with fun activities that help to connect the reader with the culture explored in the story.
+    </p>
+            </div>
             <div className = 'port__container container'>
                 <Link to = "/MyBooks/TQP" className='port_item'>
                     <div className="port-item-image">
